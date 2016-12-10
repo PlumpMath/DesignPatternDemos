@@ -44,6 +44,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactoryClient.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteFactories\CrystalReportFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteFactories\SQLViewReportFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteFactories\XMLReportFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteReportDataSources\CrystalDataSource.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteReportDataSources\SQLViewDataSource.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteReportDataSources\XMLDataSource.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteReportViews\CrystalReportView.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteReportViews\SQLReportView.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ConcreteReportViews\XMLReportView.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ReportDataSource.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ReportEngine.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ReportFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ReportView.cs" />
+    <Compile Include="IDesignPatternClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
